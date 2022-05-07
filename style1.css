@@ -1,0 +1,35 @@
+.imgpaytm img{
+    margin-top: 150px;
+    height:850px;
+}
+.blackrow h2{
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+.blackrow img{
+    margin-top: 50px;
+    width:200px;
+    margin-left: 40px;
+}
+.blackrow p{
+    font-size: 18px;
+    line-height: 40px;
+}
+.blackrow hr{
+    height: 2px;
+}
+.footer{
+    height: 70px;
+    background-color: rgb(42, 41, 41);
+}
+.footer p{
+    padding-top: 20px;
+}
+@media(max-width:600px) {
+    .imgpaytm img {
+        margin-top: 150px;
+        height: 772px;
+        width: 349px;
+    }
+}

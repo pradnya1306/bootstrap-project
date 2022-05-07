@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    background-color: lavender
+}
+.bgimg{
+    background-image: url("girl.jpg");
+    height: 950px;
+    width:100%;
+    background-size: cover;
+}
+
+.headerset h1{
+    padding:70px;
+    font-weight: bold;
+}
+.rowsetting{
+    position:relative;
+    margin-top:-100px ;
+}
+.rowsetting p{
+    padding:5px;
+    margin-top: -70px;
+}
+.rowsetting h1{
+    margin-left: 10px;
+    font-size: 21px;
+    margin-top:-50px;
+}
+.head{
+    background-color: darkgrey;
+}
+.imgsetting{
+    height: 130px;
+    width: 130px;
+    background-color: darkgrey;
+    border: 10px solid rgb(7, 251, 251);
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 40px;
+
+    
+}
+.imgsetting img{
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+} 
+.imgsetting1 img{
+    height: 50px;
+    width: 50px;
+    margin-top:30px;
+
+}
+.imgsetting1{
+    height: 130px;
+    width: 130px;
+    background-color: darkgrey;
+    border: 10px solid rgb(7, 251, 251);
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: 40px;
+
+    
+}
+.rowseitting2 h1{
+    font-size: 20px;
+    margin-top: -50px;
+}
+.rowseitting2 p{
+    margin-top:-70px;
+}
+.whiterow img{
+    height: 150px;
+    width: 150px;
+    margin-top: 75px;
+    margin-left: 150px;
+}
+.whiterow p{
+    margin-top: -90px;
+    font-size: 30px;
+    margin-left: 290px;
+}
+.whitetext{
+    height: 300px;
+    background-color:lightgray;
+}
+.blacktext{
+    height: 450px;
+}
+.head2{
+    margin-left: 80px;
+}
+.blackrow h2{
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+.blackrow{
+    margin-top: 0;
+}
+
+.blackrow img{
+    margin-top: 50px;
+    width:200px;
+    margin-left: 40px;
+}
+.blackrow p{
+    font-size: 18px;
+    line-height: 40px;
+}
+.blackrow hr{
+    height: 2px;
+}
+.footer{
+    height: 70px;
+    background-color: rgb(42, 41, 41);
+}
+.footer p{
+    padding-top: 20px;
+}
+
+@media (max-width:600px){
+    .rowsetting h1 {
+        margin-left:61px;
+        font-size: 21px;
+        margin-top: -50px;
+    }
+    .rowsetting p {
+        padding: 5px;
+        margin-top: -70px;
+        margin-left: 76px;
+    } 
+    .rowseitting2 h1 {
+        font-size: 20px;
+        margin-top: -50px;
+        margin-left: 76px;
+    }
+    .rowseitting2 p {
+        margin-top: -70px;
+        margin-left: 83px;
+    }
+    .whiterow img {
+        height: 150px;
+        width: 150px;
+        margin-top: 57px;
+        margin-left: 90px;
+    }
+    .blackrow {
+        margin-top: 539px;
+    }
+    .whiterow p {
+        margin-top: -15px;
+        font-size: 30px;
+        margin-left: 50px;
+        text-align: center;
+    }
+}

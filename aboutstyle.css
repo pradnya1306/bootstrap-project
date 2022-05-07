@@ -1,0 +1,50 @@
+.rowsett3 img{
+    margin-top: 100px;
+    height: 500px;
+    margin-bottom: 40px;
+}
+.mydiv{
+    margin-top:200px;
+}
+.mydiv h1{
+    font-size: 50px;
+    line-height: 80px;
+}
+.mydiv p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.li3{
+    margin-bottom: 40px;
+}
+.blackrow img{
+    margin-top: 50px;
+    width:200px;
+    margin-left: 40px;
+}
+.blackrow h2{
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+.blackrow p{
+    font-size: 18px;
+    line-height: 40px;
+}
+.blackrow hr{
+    height: 2px;
+}
+.footer{
+    height: 70px;
+    background-color: rgb(42, 41, 41);
+}
+.footer p{
+    padding-top: 20px;
+}
+@media(max-width:600px){
+    .rowsett3 img {
+        margin-top: 100px;
+        height: 500px;
+        width: 351px;
+    }
+}
